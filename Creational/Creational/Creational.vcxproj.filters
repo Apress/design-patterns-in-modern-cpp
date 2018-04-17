@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Builder">
+      <UniqueIdentifier>{2d659032-6c58-4dca-929d-01e249ece131}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Factory">
+      <UniqueIdentifier>{589d56ad-b11e-4ce6-b612-41e8788c22f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Builder\Facets">
+      <UniqueIdentifier>{7e011512-5f92-40a0-88e0-aea774642718}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Factory\AbstractFactory">
+      <UniqueIdentifier>{3c92b113-3d5b-47e1-9108-927d3d3e9967}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Prototype">
+      <UniqueIdentifier>{87c92fc6-c33a-494b-953e-720ca5429836}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Singleton">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Preliminaries">
+      <UniqueIdentifier>{385b14eb-9a2e-4b23-b571-ef26ec7b3f68}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GroovyStyle.cpp">
+      <Filter>Builder</Filter>
+    </ClCompile>
+    <ClCompile Include="Factory.cpp">
+      <Filter>Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="InnerFactory.cpp">
+      <Filter>Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="Person.cpp">
+      <Filter>Builder\Facets</Filter>
+    </ClCompile>
+    <ClCompile Include="Facets.cpp">
+      <Filter>Builder\Facets</Filter>
+    </ClCompile>
+    <ClCompile Include="Builder.cpp">
+      <Filter>Builder</Filter>
+    </ClCompile>
+    <ClCompile Include="PersonBuilder.cpp">
+      <Filter>Builder\Facets</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractFactory.cpp">
+      <Filter>Factory\AbstractFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="FactoryMethod.cpp">
+      <Filter>Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="Prototype.cpp">
+      <Filter>Prototype</Filter>
+    </ClCompile>
+    <ClCompile Include="Serialization.cpp">
+      <Filter>Prototype</Filter>
+    </ClCompile>
+    <ClCompile Include="SingletonTests.cpp">
+      <Filter>Singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="Singleton.hpp">
+      <Filter>Singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="MaybeMonad.cpp">
+      <Filter>Preliminaries</Filter>
+    </ClCompile>
+    <ClCompile Include="BoostDI.cpp">
+      <Filter>Preliminaries</Filter>
+    </ClCompile>
+    <ClCompile Include="SRP.cpp">
+      <Filter>Preliminaries</Filter>
+    </ClCompile>
+    <ClCompile Include="OCP.cpp">
+      <Filter>Preliminaries</Filter>
+    </ClCompile>
+    <ClCompile Include="LSP.cpp">
+      <Filter>Preliminaries</Filter>
+    </ClCompile>
+    <ClCompile Include="ISP.cpp">
+      <Filter>Preliminaries</Filter>
+    </ClCompile>
+    <ClCompile Include="Monostate.cpp">
+      <Filter>Singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="PrototypeCodingExercise.cpp">
+      <Filter>Prototype</Filter>
+    </ClCompile>
+    <ClCompile Include="SingletonCodingExercise.cpp">
+      <Filter>Singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="DIP.cpp">
+      <Filter>Preliminaries</Filter>
+    </ClCompile>
+    <ClCompile Include="BuilderCodingExercise.cpp">
+      <Filter>Builder</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Person.h">
+      <Filter>Builder\Facets</Filter>
+    </ClInclude>
+    <ClInclude Include="PersonBuilder.h">
+      <Filter>Builder\Facets</Filter>
+    </ClInclude>
+    <ClInclude Include="PersonAddressBuilder.h">
+      <Filter>Builder\Facets</Filter>
+    </ClInclude>
+    <ClInclude Include="PersonJobBuilder.h">
+      <Filter>Builder\Facets</Filter>
+    </ClInclude>
+    <ClInclude Include="HotDrink.h">
+      <Filter>Factory\AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="HotDrinkFactory.h">
+      <Filter>Factory\AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="CoffeeFactory.h">
+      <Filter>Factory\AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="TeaFactory.h">
+      <Filter>Factory\AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="DrinkFactory.h">
+      <Filter>Factory\AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="di.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="capitals.txt">
+      <Filter>Singleton</Filter>
+    </Text>
+    <Text Include="UnknownExercise.txt" />
+    <Text Include="FactoryCodingExercise.cpp">
+      <Filter>Singleton</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

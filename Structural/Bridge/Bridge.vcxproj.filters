@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="bridge.cpp" />
+    <ClCompile Include="Person.cpp">
+      <Filter>Pimpl</Filter>
+    </ClCompile>
+    <ClCompile Include="BridgeCodingExercise.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Pimpl">
+      <UniqueIdentifier>{bb52ed5a-ff28-4602-a5ca-04cdaa5eae14}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Person.h">
+      <Filter>Pimpl</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

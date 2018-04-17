@@ -1,0 +1,20 @@
+Tokyo	
+33200000
+New York	
+17800000
+Sao Paulo	
+17700000
+Seoul
+17500000
+Mexico City
+17400000
+Osaka	
+16425000
+Manila	
+14750000
+Mumbai	
+14350000
+Delhi	
+14300000
+Jakarta	
+14250000

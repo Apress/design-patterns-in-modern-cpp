@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="observer_notes.cpp" />
+    <ClCompile Include="observer_book.cpp" />
+    <ClCompile Include="observer1.cpp" />
+    <ClCompile Include="observer2.cpp" />
+    <ClCompile Include="observer3.cpp" />
+  </ItemGroup>
+</Project>
