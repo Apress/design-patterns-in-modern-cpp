@@ -26,7 +26,7 @@ struct PaymentProcessing
 
   void Process()
   {
-    log.LogMessage("Processing payments...");
+    log.LogInfo("Processing payments...");
   }
 };
 
